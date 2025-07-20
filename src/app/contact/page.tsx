@@ -5,11 +5,11 @@ export default function ContactPage() {
     <div className="flex flex-col items-center justify-center min-h-screen p-8">
       <div className="max-w-4xl mx-auto w-full text-center">
         <div className="mb-12">
-          <h1 className="text-5xl font-bold mb-6">📬 Let's Build Something Meaningful</h1>
+          <h1 className="text-5xl font-bold mb-6">📬 Let&apos;s Build Something Meaningful</h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Want to turn a complex idea or inefficient process into something smart, useful, and beautifully human?
           </p>
-          <p className="text-lg font-medium mt-4">I'd love to hear about it.</p>
+          <p className="text-lg font-medium mt-4">I&apos;d love to hear about it.</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
@@ -39,7 +39,7 @@ export default function ContactPage() {
 
           <div className="glass-button p-6 rounded-xl">
             <MessageSquare className="w-8 h-8 mx-auto mb-4 text-sidebar-foreground" />
-            <h3 className="text-lg font-semibold mb-2">Let's Chat</h3>
+            <h3 className="text-lg font-semibold mb-2">Let&apos;s Chat</h3>
             <p className="text-muted-foreground">
               Ready to discuss your project?
             </p>

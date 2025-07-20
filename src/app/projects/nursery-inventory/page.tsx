@@ -74,7 +74,7 @@ export default function NurseryInventoryPage() {
               <h2 className="text-2xl font-bold">🧠 Reflection</h2>
             </div>
             <p className="text-muted-foreground italic">
-              "Even simple tools can have a big impact on daily workflows. This project reinforced the value of understanding user needs in context."
+              &quot;Even simple tools can have a big impact on daily workflows. This project reinforced the value of understanding user needs in context.&quot;
             </p>
           </div>
         </div>

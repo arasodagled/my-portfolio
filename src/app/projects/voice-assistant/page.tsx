@@ -74,7 +74,7 @@ export default function VoiceAssistantPage() {
               <h2 className="text-2xl font-bold">🧠 Reflection</h2>
             </div>
             <p className="text-muted-foreground italic">
-              "This MVP taught me the importance of rapid prototyping and user testing in emerging technology spaces."
+              &quot;This MVP taught me the importance of rapid prototyping and user testing in emerging technology spaces.&quot;
             </p>
           </div>
         </div>

@@ -104,7 +104,7 @@ export default function LanguageTrackerPage() {
               <h2 className="text-2xl font-bold">🧠 Reflection</h2>
             </div>
             <p className="text-muted-foreground italic">
-              "This project sharpened my systems thinking — turning an informal, people-heavy workflow into an intelligent, scalable system. It also deepened my experience translating business rules into logic flows for automation."
+              &quot;This project sharpened my systems thinking — turning an informal, people-heavy workflow into an intelligent, scalable system. It also deepened my experience translating business rules into logic flows for automation.&quot;
             </p>
           </div>
         </div>

@@ -108,7 +108,7 @@ export default function TalentPlatformPage() {
               <h2 className="text-2xl font-bold">🧠 Reflection</h2>
             </div>
             <p className="text-muted-foreground italic">
-              "This project taught me how to turn fuzzy user needs into structured, intelligent systems. Even with limited resources, I learned to balance feasibility, empathy, and data strategy — creating a product that's both loved by users and scalable for business."
+              &quot;This project taught me how to turn fuzzy user needs into structured, intelligent systems. Even with limited resources, I learned to balance feasibility, empathy, and data strategy — creating a product that&apos;s both loved by users and scalable for business.&quot;
             </p>
           </div>
         </div>

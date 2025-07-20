@@ -74,7 +74,7 @@ export default function DataDashboardsPage() {
               <h2 className="text-2xl font-bold">🧠 Reflection</h2>
             </div>
             <p className="text-muted-foreground italic">
-              "Data automation projects taught me the importance of clean data pipelines and user-friendly visualizations for effective decision-making."
+              &quot;Data automation projects taught me the importance of clean data pipelines and user-friendly visualizations for effective decision-making.&quot;
             </p>
           </div>
         </div>
