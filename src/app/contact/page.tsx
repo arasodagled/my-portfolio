@@ -9,7 +9,6 @@ export default function ContactPage() {
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Want to turn a complex idea or inefficient process into something smart, useful, and beautifully human?
           </p>
-          <p className="text-lg font-medium mt-4">I&apos;d love to hear about it.</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
