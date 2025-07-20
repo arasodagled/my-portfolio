@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-8 text-center">
       <main className="flex flex-col items-center justify-center gap-8 max-w-3xl mx-auto">
-        <h1 className="text-5xl font-bold mb-4">Hey, I'm Sara!</h1>
+        <h1 className="text-5xl font-bold mb-4">Hey, I&apos;m Sara!</h1>
         <p className="text-xl text-gray-700 dark:text-gray-300 mb-12">
           I turn complexity into clarity — and technology into something that supports and elevates human experience.
         </p>
@@ -44,7 +44,6 @@ export default function Home() {
             </div>
           </Link>
         </div>
-        
       </main>
     </div>
   );
