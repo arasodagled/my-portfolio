@@ -1,6 +1,6 @@
 "use client";
 import { useTheme } from "next-themes";
-import { Code } from "lucide-react";
+import { Lightbulb } from "lucide-react";
 import { useEffect, useState } from "react";
 
 export default function ThemeToggle() {
@@ -27,7 +27,7 @@ export default function ThemeToggle() {
         className={`absolute top-1 left-1 flex items-center justify-center w-6 h-6 rounded-full transition-transform duration-300 bg-gray-400 ${isDark ? "translate-x-6 bg-primary" : "bg-gray-400"}`}
         style={{ zIndex: 2 }}
       >
-        <Code size={20} className={isDark ? "text-white" : "text-gray-800"} />
+        <Lightbulb size={20} className={isDark ? "text-white" : "text-gray-800"} />
       </span>
       {/* Invisible for layout */}
       <span className="opacity-0 w-full h-full" />

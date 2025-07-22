@@ -12,7 +12,7 @@ export default function ContactPage() {
 
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
           <div className="glass-button p-6 rounded-xl">
             <Mail className="w-8 h-8 mx-auto mb-4 text-sidebar-foreground" />
             <h3 className="text-lg font-semibold mb-2">Email</h3>
@@ -28,7 +28,7 @@ export default function ContactPage() {
             <Linkedin className="w-8 h-8 mx-auto mb-4 text-sidebar-foreground" />
             <h3 className="text-lg font-semibold mb-2">LinkedIn</h3>
             <a 
-              href="https://linkedin.com/in/your-profile" 
+              href="https://www.linkedin.com/in/sara-delgado-04a43a10a/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-foreground transition-colors"
@@ -37,13 +37,6 @@ export default function ContactPage() {
             </a>
           </div>
 
-          <div className="glass-button p-6 rounded-xl">
-            <MessageSquare className="w-8 h-8 mx-auto mb-4 text-sidebar-foreground" />
-            <h3 className="text-lg font-semibold mb-2">Let&apos;s Chat</h3>
-            <p className="text-muted-foreground">
-              Ready to discuss your project?
-            </p>
-          </div>
         </div>
 
         <div className="mt-16 text-center">
