@@ -81,7 +81,7 @@
   --color-coral: #FC7C7A;
   --color-indigo: #6759FF;
   --color-dark-blue: #3647DB;
-  --color-aqua: #B2F9E0;
+  --color-aqua: #2BD887;
 
 }
 
@@ -147,6 +147,13 @@ body {
 .dark .glass-button {
   background-color: rgba(30, 41, 59, 0.4); /* Darker glass for dark mode */
   border: 1px solid rgba(255, 255, 255, 0.08); /* Subtle border for dark mode */
+}
+
+.glass-button svg {
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.glass-button:hover svg {
+  transform: scale(1.15) rotate(-8deg);
 }
 
 /* Tailwind classes for custom colors */

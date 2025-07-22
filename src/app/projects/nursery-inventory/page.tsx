@@ -24,56 +24,66 @@ export default function NurseryInventoryPage() {
 
         <div className="space-y-12">
           {/* Problem */}
-          <div className="glass-button p-8 rounded-xl">
-            <div className="flex items-center mb-4">
-              <Target className="w-8 h-8 mr-3 text-red-500" />
-              <h2 className="text-2xl font-bold">🎯 Problem</h2>
+          <div className="mb-10">
+            <div className="flex items-center gap-2 mb-2">
+              <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-rose-100 text-rose-400">
+                <Target className="w-5 h-5" />
+              </span>
+              <h2 className="text-lg font-semibold">Problem</h2>
             </div>
-            <p className="text-muted-foreground">
+            <p className="ml-8 text-sm text-muted-foreground">
               Nursery staff needed a streamlined way to track inventory quality and quantity for snack management.
             </p>
           </div>
 
           {/* Solution */}
-          <div className="glass-button p-8 rounded-xl">
-            <div className="flex items-center mb-4">
-              <Lightbulb className="w-8 h-8 mr-3 text-yellow-500" />
-              <h2 className="text-2xl font-bold">💡 Solution</h2>
+          <div className="mb-10">
+            <div className="flex items-center gap-2 mb-2">
+              <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-violet-100 text-violet-400">
+                <Lightbulb className="w-5 h-5" />
+              </span>
+              <h2 className="text-lg font-semibold">Solution</h2>
             </div>
-            <p className="text-muted-foreground">
+            <p className="ml-8 text-sm text-muted-foreground">
               Built a mobile-friendly app that simplified inventory tracking and quality assessment processes.
             </p>
           </div>
 
           {/* My Role */}
-          <div className="glass-button p-8 rounded-xl">
-            <div className="flex items-center mb-4">
-              <User className="w-8 h-8 mr-3 text-green-500" />
-              <h2 className="text-2xl font-bold">👩‍💻 My Role</h2>
+          <div className="mb-10">
+            <div className="flex items-center gap-2 mb-2">
+              <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-indigo-100 text-indigo-400">
+                <User className="w-5 h-5" />
+              </span>
+              <h2 className="text-lg font-semibold">My Role</h2>
             </div>
-            <p className="text-muted-foreground">
+            <p className="ml-8 text-sm text-muted-foreground">
               End-to-end product development including user research, design, and implementation using low-code platforms.
             </p>
           </div>
 
           {/* Tools Used */}
-          <div className="glass-button p-8 rounded-xl">
-            <div className="flex items-center mb-4">
-              <Code className="w-8 h-8 mr-3 text-blue-500" />
-              <h2 className="text-2xl font-bold">🛠️ Tools Used</h2>
+          <div className="mb-10">
+            <div className="flex items-center gap-2 mb-2">
+              <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-blue-100 text-blue-400">
+                <Code className="w-5 h-5" />
+              </span>
+              <h2 className="text-lg font-semibold">Tools Used</h2>
             </div>
-            <p className="text-muted-foreground">
+            <p className="ml-8 text-sm text-muted-foreground">
               Low-code platforms, Mobile-first design, Database management
             </p>
           </div>
 
           {/* Reflection */}
-          <div className="glass-button p-8 rounded-xl">
-            <div className="flex items-center mb-4">
-              <Award className="w-8 h-8 mr-3 text-yellow-500" />
-              <h2 className="text-2xl font-bold">🧠 Reflection</h2>
+          <div className="mb-10">
+            <div className="flex items-center gap-2 mb-2">
+              <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-emerald-100 text-emerald-400">
+                <Award className="w-5 h-5" />
+              </span>
+              <h2 className="text-lg font-semibold">Reflection</h2>
             </div>
-            <p className="text-muted-foreground italic">
+            <p className="ml-8 text-sm text-muted-foreground italic">
               &quot;Even simple tools can have a big impact on daily workflows. This project reinforced the value of understanding user needs in context.&quot;
             </p>
           </div>
